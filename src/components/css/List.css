@@ -1,0 +1,29 @@
+.strip {
+   
+   display: flex;
+   justify-content: center;
+}
+
+.strip > p {
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.delete-component{
+ align-self: center;
+}
+#delete{
+  height: 2rem;
+  align-self: center;
+  border-radius: 0.5em;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  padding : 10px ; 
+  cursor : pointer;
+
+}
+#delete:hover {
+    background-color: red;
+    color: white;
+}
